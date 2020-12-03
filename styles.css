@@ -1,0 +1,74 @@
+:root {
+	--black: #333;
+}
+
+* { 
+	color: var(--black);
+	font-family: 'Assistant', sans-serif;
+	line-height: 1.8rem;
+}
+
+a { color: var(--black); }
+
+h2 { 
+	font-size: 1.4rem;
+	font-weight: normal;
+	margin: 0;
+}
+
+address { margin-top: 20px; }
+address a { text-decoration: none;}
+
+footer {
+	background: #fff;
+	bottom: 0;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+footer p {
+	border-top: 1px solid var(--black);
+	display: inline-block;
+	margin: 0;
+	padding: 5px 10vw;
+}
+
+.container {
+	font-size: 1.2rem;
+	margin: 0 auto;
+	max-width: 80%;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.links-wrapper {
+	display: inline-block;
+	margin: 0 15px;
+	min-width: 70px;
+}
+
+.role {
+    margin: 5px auto;
+    font-family: "Courier New";
+}
+
+.role::after{
+  content: "|";
+  animation: blink 500ms linear infinite alternate;
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
