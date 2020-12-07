@@ -16,7 +16,7 @@ h2 {
 	margin: 0;
 }
 
-address { margin-top: 20px; }
+address { margin-top: 45px; }
 address a { text-decoration: none;}
 
 footer {
@@ -30,8 +30,9 @@ footer {
 footer p {
 	border-top: 1px solid var(--black);
 	display: inline-block;
+	font-size: 1.5vh;
 	margin: 0;
-	padding: 5px 10vw;
+	padding: .5vh 10vw;
 }
 
 .container {
@@ -44,7 +45,7 @@ footer p {
 
 .links-wrapper {
 	display: inline-block;
-	margin: 0 15px;
+	margin: 0 2px;
 	min-width: 70px;
 }
 
